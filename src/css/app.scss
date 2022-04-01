@@ -1,1 +1,66 @@
 // app global css in SCSS form
+
+@font-face {
+  font-family: pokefont;
+  src: url(./fonts/Signika/Signika-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: pokefont;
+}
+
+.caption-text {
+  color: #919191;
+}
+
+.rock {
+  background-color: #a28c22;
+}
+.grass {
+  background-color: #9bcc50;
+}
+.poison {
+  background-color: #b97fc9;
+}
+.fire {
+  background-color: #fd7d24;
+}
+.flying {
+  background-color: #3dc6ef;
+}
+.water {
+  background-color: #4491c3;
+}
+.bug {
+  background-color: #729f3f;
+}
+.normal {
+  background-color: #a3acaf;
+}
+.electric {
+  background-color: #eed536;
+}
+.ground {
+  background-color: #aa9842;
+}
+.fairy {
+  background-color: #fdb9e9;
+}
+.fighting {
+  background-color: #d56722;
+}
+.psychic {
+  background-color: #f366b9;
+}
+.steel {
+  background-color: #9eb7b8;
+}
+.ice {
+  background-color: #51c3e7;
+}
+.ghost {
+  background-color: #7b62a3;
+}
+.dragon {
+  background-color: #f16e57;
+}

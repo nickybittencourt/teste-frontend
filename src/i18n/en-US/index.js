@@ -2,6 +2,37 @@
 // so you can safely delete all default props below
 
 export default {
-  failed: 'Action failed',
-  success: 'Action was successful'
-}
+  notFound: "Oops. Nothing here...",
+  search: "Search for a Pokémon",
+  height: "Height",
+  heightUnit: "feet",
+  weightUbit: "lbs",
+  weight: "Weight",
+  abilities: "Abilities",
+  baseStats: "Base Stats",
+  hp: "HP",
+  attack: "Attack",
+  defense: "Defense",
+  "special-attack": "Special Attack",
+  "special-defense": "Special Defense",
+  speed: "Speed",
+  types: {
+    grass: "Grass",
+    poison: "Poison",
+    fire: "Fire",
+    flying: "Flying",
+    water: "Water",
+    bug: "Bug",
+    normal: "Normal",
+    electric: "Electric",
+    ground: "Ground",
+    fairy: "Fairy",
+    fighting: "Fighting",
+    psychic: "Psychic",
+    steel: "Steel",
+    ice: "Ice",
+    ghost: "Ghost",
+    dragon: "Dragon",
+    rock: "Rock",
+  },
+};
