@@ -2,6 +2,10 @@
 
 A Quasar Project
 
+# Deployed at:
+
+https://pokedexvue-henna.vercel.app
+
 ## Install the dependencies
 ```bash
 yarn
