@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper flex">
+  <div class="wrapper column justify-center items-center">
     <q-card class="flex-center poke-card" v-if="!isFetching">
       <q-card-section>
         <div class="text-h3 flex flex-center">
@@ -142,7 +142,8 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   background-image: url(../assets/pokemon-background.jpeg);
-  height: 115vh;
+  height: 100%;
+  padding-bottom: 16vh;
 }
 .type-badge {
   margin-top: 15%;
@@ -153,6 +154,7 @@ export default {
 .poke-card {
   margin: auto;
   margin-top: 3%;
+  margin-bottom: 0%;
   width: 80%;
   max-width: 800px;
   background-color: #e1e7e7e9;
@@ -165,7 +167,7 @@ export default {
 
 .poke-stats-card {
   margin: auto;
-  margin-top: 0%;
+  margin-top: 3%;
   width: 80%;
   max-width: 800px;
 }
