@@ -2,7 +2,7 @@
 
 A Quasar Project
 
-# Deployed at:
+## Deployed at:
 
 https://pokedexvue-henna.vercel.app
 
