@@ -142,7 +142,7 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
   background-image: url(../assets/pokemon-background.jpeg);
-  height: 100%;
+  height: 110%;
   padding-bottom: 16vh;
 }
 .type-badge {
